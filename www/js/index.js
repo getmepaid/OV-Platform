@@ -16,10 +16,8 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-       // app.receivedEvent('deviceready');
-	   //window.open('http://youfeellike.sharedin.net', '_blank', 'location=no')
 	   var inAppBrowserbRef;
-       inAppBrowserbRef = window.open('http://w2.alaaka.com', '_blank', 'location=no,toolbar=no');
+       inAppBrowserbRef = window.open('http://www.ovplatform.tk/front/', '_blank', 'location=no,toolbar=no');
          inAppBrowserbRef.addEventListener('loadstart', inAppBrowserbLoadStart);
          inAppBrowserbRef.addEventListener('loadstop', inAppBrowserbLoadStop);
          inAppBrowserbRef.addEventListener('loaderror', inAppBrowserbLoadError);
