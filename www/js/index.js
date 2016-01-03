@@ -17,7 +17,7 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
 	   var inAppBrowserbRef;
-       inAppBrowserbRef = window.open('http://www.ovplatform.tk/front/', '_blank', 'location=no,toolbar=no');
+       inAppBrowserbRef = window.open('http://www.ovplatform.tk/Front/',  '_blank', 'location=no,toolbar=no');
          inAppBrowserbRef.addEventListener('loadstart', inAppBrowserbLoadStart);
          inAppBrowserbRef.addEventListener('loadstop', inAppBrowserbLoadStop);
          inAppBrowserbRef.addEventListener('loaderror', inAppBrowserbLoadError);
